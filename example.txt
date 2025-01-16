@@ -1,0 +1,16 @@
+Reading a file with Open()
+Estimated time needed: 10 minutes
+
+File handling is an essential aspect of programming, and Python provides built-in functions to interact with files. This guide will explore how to use Python's open function to read the text files ('.txt' files).
+
+Objectives
+Describe how to use the open() and read() Python functions to open and read the contents of a text file
+Explain how to use the with statement in Python
+Describe how to use the readline() function in Python
+Explain how to use the seek() function to read specific character(s) in a text file
+Introduction
+Reading text files involves extracting and processing the data stored within them. Text files can have various structures, and how you read them depends on their format. Here's a general guide on reading text files with different structures.
+
+Plain text files
+Plain text files contain unformatted text without any specific structure
+You can read plain text files line by line or load all the content into your memory
